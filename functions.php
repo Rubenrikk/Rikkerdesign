@@ -19,7 +19,7 @@ add_action( 'wp_enqueue_scripts', 'rikkerdesign_style' );
 function add_support_to_admin_bar( $wp_admin_bar ) {
   if ( is_user_logged_in() ) {
     $current_user = wp_get_current_user();
-    $support_text = 'Komt u er niet helemaal uit? Bel dan test-test';
+    $support_text = 'Komt u er niet helemaal uit? Bel dan 074-7002138';
     $args = array(
       'id' => 'custom-support',
       'title' => $support_text,
