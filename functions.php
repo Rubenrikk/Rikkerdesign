@@ -77,7 +77,7 @@ function custom_login_styles() {
 add_action( 'login_enqueue_scripts', 'custom_login_styles' );
 
 
-//Rikkerdesign icon
+//Rikkerdesign Admin panel
 function custom_admin_bar_logo( $wp_admin_bar ) {
     $wp_admin_bar->add_node(
         array(
@@ -92,4 +92,14 @@ function custom_admin_bar_logo( $wp_admin_bar ) {
     );
 }
 add_action( 'admin_bar_menu', 'custom_admin_bar_logo', 11 );
+
+function custom_admin_bar_style() { ?>
+  echo '<style>
+      #wpadminbar {
+          background-color: #000000;
+      }
+  </style>';
+<?php}
+add_action('wp_head', 'custom_admin_bar_style');
+
 
