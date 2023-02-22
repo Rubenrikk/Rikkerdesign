@@ -93,13 +93,5 @@ function custom_admin_bar_logo( $wp_admin_bar ) {
 }
 add_action( 'admin_bar_menu', 'custom_admin_bar_logo', 11 );
 
-function custom_admin_bar_style() { ?>
-  echo '<style>
-      #wpadminbar {
-          background-color: #000000;
-      }
-  </style>';
-<?php}
-add_action('wp_head', 'custom_admin_bar_style');
 
 
