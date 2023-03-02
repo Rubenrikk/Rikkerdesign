@@ -92,6 +92,3 @@ function custom_admin_bar_logo( $wp_admin_bar ) {
     );
 }
 add_action( 'admin_bar_menu', 'custom_admin_bar_logo', 11 );
-
-
-
