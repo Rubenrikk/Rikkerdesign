@@ -37,7 +37,7 @@ add_action( 'admin_bar_menu', 'add_support_to_admin_bar', 999 );
 function wpb_login_logo() { ?>
     <style type="text/css">
         #login h1 a, .login h1 a {
-            background-image: url(https://cloud.rikkermediahub.com/apps/files_sharing/publicpreview/tak48jfC5rjaLQy?file=/&fileId=22687&x=3420&y=2224&a=true&etag=9aac779629811a337ca5ee0d00d4411d);
+            background-image: url(https://cloud.rikkermediahub.com/apps/files_sharing/publicpreview/xspyNWyYSi6LnbG?file=/&fileId=1349339&x=3440&y=1440&a=true&etag=021326f3fd8d6781ac20ed7b7ce125d8);
         height:140px;
         width:294px;
         background-size: 294px 140px;
